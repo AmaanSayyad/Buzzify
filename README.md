@@ -1,7 +1,7 @@
 # 🚀 Buzzify - AI-Powered Universal Prediction Market  
 
 ## **🔹 Overview**  
-Buzzify is a **Universal AI-powered prediction market** fully built on **ZetaChain**. It allows users to **bet on social media engagement, crypto prices, AI trends, and custom peer-to-peer bets** while ensuring **decentralization, fairness. Main focus - cross-chain betting in different assets (ETH, USDC, ZETA, etc.) without needing to bridge manually. **.
+Buzzify is a **Universal AI-powered prediction market** fully built on **ZetaChain**. It allows users to **bet on social media engagement, crypto prices, AI trends, and custom peer-to-peer bets** while ensuring **decentralization, fairness. Main focus - cross-chain betting in different assets (ETH, USDC, ZETA, etc.) without needing to bridge manually.** .
 
 ## **🎯 Key Features**  
 
