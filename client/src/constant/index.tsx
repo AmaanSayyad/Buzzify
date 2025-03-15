@@ -36,6 +36,15 @@ export const Addresses = {
     conversionAddress: "0xC908E848d02ebF4534d772d354BE2d1D1d5339a5",
     rpc_url: "https://testnet-rpc.monad.xyz/",
   },
+  "7001": {
+    name: "Zetachain Testnet",
+    tokenAddress: "0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87",
+    mainContractAddress: "0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12",
+    nftContractAddress: "0xe6d602De78a7a46F072B117A99b7e45640aB5E7C",
+    usdeAddress: "0xfe140e1dCe99Be9F4F15d657CD9b7BF622270C50",
+    conversionAddress: "0xC908E848d02ebF4534d772d354BE2d1D1d5339a5",
+    rpc_url: "https://zetachain-athens-evm.blockpi.network/",
+  },
 };
 export const conversionContractAbi = [
   {

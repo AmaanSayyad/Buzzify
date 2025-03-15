@@ -1,5 +1,5 @@
 import { http } from "viem";
-
+import {zetachainAthensTestnet} from "wagmi/chains";
 const bleTestnetNetwork = {
   id: 52085143,
   name: "BLE Testnet",
@@ -43,10 +43,10 @@ const monadTestnet = {
   },
 };
 
-export const chainArray = [bleTestnetNetwork,etherlinkTestnet,monadTestnet];
+export const chainArray = [bleTestnetNetwork,etherlinkTestnet,monadTestnet,zetachainAthensTestnet];
 export const transportsObject = {
   [bleTestnetNetwork.id]: http(),
   [etherlinkTestnet.id]: http(),
   [monadTestnet.id]: http(),
-
+  [zetachainAthensTestnet.id]: http(),
 };
