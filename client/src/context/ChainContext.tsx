@@ -40,7 +40,7 @@ interface ChainContextProps {
 const ChainContext = createContext<ChainContextProps | undefined>(undefined);
 
 export const ChainProvider = ({ children }: { children: ReactNode }) => {         
-  const [chainDetail, setChainDetail] = useState<Network | null>(chainArray[2]);
+  const [chainDetail, setChainDetail] = useState<Network | null>(chainArray[3]);
   return (
     <ChainContext.Provider value={{ chainDetail, setChainDetail }}>
       {children}

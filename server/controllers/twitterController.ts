@@ -21,6 +21,7 @@ async function generatePredictionQuestion(
   predictionType: string,
   metric: string
 ): Promise<string> {
+  console.log("helo")
   const prompt = `
         You are an expert in prediction markets. Based on the given Twitter post engagement data,
         craft a ${predictionType.toLowerCase()} prediction-style question that is engaging and aligns with prediction market principles.
@@ -63,6 +64,7 @@ export const getPredictionQuestion = async (
 ): Promise<any | undefined> => {
   try {
     const { metric, postId, username, predictionType } = req.body;
+    console.log("hello")
 
     if (!metric || !postId || !predictionType) {
       return res.status(400).json({ error: "Missing required fields" });
